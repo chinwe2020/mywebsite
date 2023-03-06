@@ -2,6 +2,7 @@ import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import stockphoto from './images/techstock1.jpeg';
+import enlightapp from './images/logo.png';
 
 function Portfolio(){
     return(
@@ -10,36 +11,33 @@ function Portfolio(){
         <Container>
            <div className='projects'>
             <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={stockphoto} />
+      <Card.Img variant="top" src={enlightapp} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Enlightapp</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Enlightapp makes understanding each student and their community fast, easy and fun!
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary"><a className="button" href="https://enlightapp.co">View</a></Button>
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={stockphoto} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Project 2</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Coming Soon
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary" >View</Button>
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={stockphoto} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Project 3</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Coming Soon
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">View</Button>
       </Card.Body>
     </Card>
         </div>

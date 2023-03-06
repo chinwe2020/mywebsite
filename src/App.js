@@ -3,6 +3,9 @@ import Header from './components/header';
 import Portfolio from './components/porfolio';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Bio from './components/bio';
+import Blog from './components/blog';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
     <Header />
     <Bio />
     <Portfolio />
+    <Blog />
+    <Contact />
+    <Footer />
   </div>
   );
 }
