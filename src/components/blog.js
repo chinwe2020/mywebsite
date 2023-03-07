@@ -4,7 +4,7 @@ import stockphoto from './images/techstock1.jpeg';
 
 function Blog(){
     return(
-        <div>
+        <div id='blog'>
             <h1 className="port-header">Blog/Interests/Related Articles</h1>
             <Container>
             <Carousel>

@@ -21,11 +21,11 @@ function NavBar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#bio">Bio</Nav.Link>
-                  <Nav.Link href="#resume">Resume</Nav.Link>
-                  <Nav.Link href="#portfolio">Portfilio</Nav.Link>
+                  <Nav.Link href="#biography">Biography</Nav.Link>
+                  <Nav.Link href='https://docs.google.com/document/d/1qwEQ8PioxFxdDR5ZndmvjIMO3wJyY1nHshZuCKWMZbE/edit?usp=sharing' target="_blank">Resume</Nav.Link>
+                  <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                   <Nav.Link href="#blog">Blog</Nav.Link>
-                  <Nav.Link href="#contact">Contact Me</Nav.Link>
+                  <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

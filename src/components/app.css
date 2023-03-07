@@ -81,4 +81,23 @@ a:link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+}
+
+.social{
+    height: 60px;
+    width: 60px;
+    margin: 0px 10px;
+}
+
+.info{
+    margin: 0;
+}
+
+.form{
+    border: 1px solid;
+    padding: 30px;
+    margin: 0px 40px;
+    border-radius: 20px;
+    background-color: lightgray;
 }

@@ -4,8 +4,9 @@ import Form from 'react-bootstrap/Form';
 
 function Contact(){
     return(
-        <div>
+        <div id='contact'>
             <h1 className="port-header">Get in Contact with Me!</h1>
+            <div className='form'>
             <Container>
             <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -26,6 +27,7 @@ function Contact(){
       </Button>
     </Form>
     </Container>
+    </div>
         </div>
     );
 }
