@@ -6,7 +6,7 @@ import enlightapp from './images/logo.png';
 
 function Portfolio(){
     return(
-        <div id='portfolio' className="head">
+        <div id='portfolio'>
         <h1 className="port-header">Portfilio -<a className="github" href="https://www.github.com/chinwe2020">Github</a></h1>
         <Container>
            <div className='projects'>
