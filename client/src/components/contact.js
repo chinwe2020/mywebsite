@@ -19,7 +19,7 @@ function Contact(){
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Message</Form.Label>
-        <Form.Control type="password" placeholder="Type Message" />
+        <Form.Control type="input" placeholder="Type Message" />
       </Form.Group>
 
       <Button variant="primary" type="submit">

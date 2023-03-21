@@ -1,7 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+//components
 import NavBar from './components/nav';
 import Header from './components/header';
 import Portfolio from './components/porfolio';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Bio from './components/bio';
 import Blog from './components/blog';
 import Contact from './components/contact';
