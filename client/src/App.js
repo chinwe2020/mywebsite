@@ -8,6 +8,7 @@ import Bio from "./components/bio";
 import Blog from "./components/blog";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import ScrollToTopButton from "./components/scroll";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Blog />
       <hr />
       <Contact />
+      <ScrollToTopButton />
       <Footer />
     </div>
   );

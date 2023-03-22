@@ -3,7 +3,6 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
 import { useState } from "react";
-import { red } from "@material-ui/core/colors";
 
 function Contact() {
   const [emailAddress, setEmailAddress] = useState("");
@@ -20,7 +19,6 @@ function Contact() {
         body: JSON.stringify(body),
       });
 
-      //console.log(body);
       console.log(response);
       // Set the success message and clear the form inputs
       setEmailAddress("");
