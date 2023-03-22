@@ -13,6 +13,7 @@ function NavBar() {
               id={`offcanvasNavbar-expand`}
               aria-labelledby={`offcanvasNavbarLabel-expand`}
               placement="end"
+              restoreFocus={false}
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand`}>

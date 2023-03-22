@@ -9,9 +9,7 @@ function Contact(){
 
   const [emailAddress, setEmailAddress] = useState("");
   const [emailMessage, setEmailMessage] = useState("");
-  const [successMessage, setSuccessMessage] = useState("");
   const [submissionSuccess, setSubmissionSuccess] = useState(false);
-  
 
   const onSubmitForm = async(e) => {
     e.preventDefault();
@@ -26,7 +24,6 @@ function Contact(){
       //console.log(body);
       console.log(response);
       // Set the success message and clear the form inputs
-      setSuccessMessage("Message sent!");
       setEmailAddress("");
       setEmailMessage("");
       setSubmissionSuccess(true); // set the state variable to true if the submission was successful
@@ -36,7 +33,7 @@ function Contact(){
   }
 
     return(
-        <div id='contact'>
+        <div id="contact">
             <h1 className="port-header">Get in Contact with Me!</h1>
             <div className='form'>
             <Container>
