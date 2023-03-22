@@ -1,14 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 //components
-import NavBar from "./components/nav";
-import Header from "./components/header";
-import Portfolio from "./components/porfolio";
-import Bio from "./components/bio";
-import Blog from "./components/blog";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
-import ScrollToTopButton from "./components/scroll";
+import NavBar from "./components/Nav";
+import Header from "./components/Header";
+import Portfolio from "./components/Porfolio";
+import Bio from "./components/Bio";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import ScrollToTopButton from "./components/Scroll";
 
 function App() {
   return (
