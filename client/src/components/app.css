@@ -129,3 +129,7 @@ a:link {
     align-items: center;
     padding-top: 10px;
 }
+
+.card_image{
+    padding: 10px;
+}

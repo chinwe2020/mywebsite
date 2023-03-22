@@ -14,7 +14,7 @@ function Portfolio(){
         <Container>
            <div className='projects'>
             <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={enlightapp} />
+      <Card.Img className='card_image' variant="top" src={enlightapp} />
       <Card.Body>
         <Card.Title>Enlightapp</Card.Title>
         <Card.Text>
