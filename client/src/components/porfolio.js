@@ -7,7 +7,10 @@ import enlightapp from './images/logo.png';
 function Portfolio(){
     return(
         <div id='portfolio'>
-        <h1 className="port-header">Portfilio -<a className="github" href="https://www.github.com/chinwe2020">Github</a></h1>
+          <div className="port-header">
+        <h1>2023 Portfilio</h1>
+        <a className="github" href="https://www.github.com/chinwe2020">- Github</a>
+        </div>
         <Container>
            <div className='projects'>
             <Card style={{ width: '18rem' }}>

@@ -16,8 +16,8 @@ app.listen(5000, () => (
 //create an entry
 app.post("/entries", async(req, res) => {
     try {
-        const {email_address, email_message} = req.body;
-        const newEntry = await pool.query("INSERT INTO messageform (email_address, email_message) VALUES ($1,$2) RETURNING *", [email_address, email_message]
+        const {emailAddress, emailMessage} = req.body;
+        const newEntry = await pool.query("INSERT INTO messageform (email_address, email_message) VALUES ($1,$2) RETURNING *", [emailAddress, emailMessage]
         );
 
         res.json(newEntry.rows[0]);

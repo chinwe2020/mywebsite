@@ -7,6 +7,7 @@ function Blog(){
         <div id='blog'>
             <h1 className="port-header">Blog/Interests/Related Articles</h1>
             <Container>
+              <h3>Featured Articles:</h3>
             <Carousel>
       <Carousel.Item>
         <img
@@ -47,6 +48,7 @@ function Blog(){
       </Carousel.Item>
     </Carousel>
     </Container>
+    <div className='blog_link'><a href=''>View More Articles</a></div>
         </div>
     )
 }
