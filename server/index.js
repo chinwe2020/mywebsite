@@ -10,6 +10,7 @@ app.use(express.json()); //req.body
 app.listen(5000, () => console.log("server has started on port 5000"));
 
 //ROUTES//
+
 //create an entry
 app.post("/entries", async (req, res) => {
   try {
@@ -51,3 +52,5 @@ app.get("/entries/:id", async (req, res) => {
 });
 
 //update an entry
+
+//delete an entry
