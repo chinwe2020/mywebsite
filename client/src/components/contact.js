@@ -14,7 +14,7 @@ function Contact() {
     try {
       const body = { emailAddress, emailMessage };
       const response = await fetch(
-        "mywebsitedbinstance.ci7w7zqvgwf7.us-east-2.rds.amazonaws.com",
+        "https://mywebsitedbinstance.ci7w7zqvgwf7.us-east-2.rds.amazonaws.com",
         {
           method: "Post",
           headers: { "Content-type": "application/json" },
