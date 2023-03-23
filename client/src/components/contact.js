@@ -13,11 +13,14 @@ function Contact() {
     e.preventDefault();
     try {
       const body = { emailAddress, emailMessage };
-      const response = await fetch("http://localhost:5000/entries", {
-        method: "Post",
-        headers: { "Content-type": "application/json" },
-        body: JSON.stringify(body),
-      });
+      const response = await fetch(
+        "mywebsitedbinstance.ci7w7zqvgwf7.us-east-2.rds.amazonaws.com",
+        {
+          method: "Post",
+          headers: { "Content-type": "application/json" },
+          body: JSON.stringify(body),
+        }
+      );
 
       console.log(response);
       // Set the success message and clear the form inputs
